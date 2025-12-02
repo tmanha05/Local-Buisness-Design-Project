@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* used for body ---------------------------------------------- */
+body{
+	background: #C0BDB6;
+	font-family: "Parkinsans Light";
+	font-size: 25px;
+}
+
+h1{
+	text-align: center;
+	font-family: 'DMSerifDisplay Regular';
+	font-size: 50px;
+}
+
+h2{
+	font-family: "Parkinsans SemiBold";
+	font-size: 30px;
+	text-align: center;
+}
+
+p{
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #463930;
+}
+
+ul-plain {
+ 	list-style-type: none;
+}
+
+/* used for body ---------------------------------------------- */
+
+
+/* used for columns ---------------------------------------------- */
+.page-wrapper {
+	margin: 5px;
+	justify-content: center;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	justify-content: center;
+	text-align: center;
+	border-style: solid;
+	border-color: #82853A;
+	border-radius: 25px;
+	margin-left: 45px;
+	margin-right: 45px;
+	
+}
+
+.column-plain{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: .5;
+}
+
+/*a:hover{
+	background-color: #E4D5A6;
+	color: #82853A
+} */
+
+.page-wrapper-abt {
+	margin: 5px;
+	justify-content: center;
+	text-align: center;
+}
+
+.row-abt {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+.column-abt {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	justify-content: center;
+	text-align: justify;
+	margin-left: 65px;
+	margin-right: 65px;
+	
+}
+/* used for columns ---------------------------------------------- */
+
+
+/* used for header ---------------------------------------------- */
+header{
+	background-color: #9BA4A9;
+}
+
+ul {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	width: 200px;
+	text-align: left;
+}
+
+li a {
+ 	display: block;
+ 	color: black;
+ 	padding: 8px 16px;
+ 	text-decoration: none;
+
+}
+
+li a:hover {
+ 	background-color: #D0A462;
+ 	color: white;
+}
+
+#navhead{
+	width:inherit;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#nav1{
+	width: inherit;
+}
+
+#head1{
+	padding: 5px;
+}
+/* used for header ---------------------------------------------- */
+
+
+/* used for footer ---------------------------------------------- */
+#foot{
+	width:inherit;
+	display: flex;
+	justify-content: space-between;
+	
+}
+/* used for footer ---------------------------------------------- */
+
+
+/* used for media ---------------------------------------------- */
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.media-column{
+	flex: 25%;
+	padding: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+@media screen and (max-width:992px){
+	media-column{
+		flex: 50%;
+	}
+}
+
+@media screen and (max-width:600px){
+	media-column{
+		flex-direction: column;
+	}
+}
+/* used for media ---------------------------------------------- */
+
+
+
+/* used for gallery ---------------------------------------------- */
+.gallery {
+    display: felx;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;
+}
+/* used for gallery ---------------------------------------------- */
+
+
+
+/* used for buttons ---------------------------------------------- */
+
+.btncontainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.button {
+    color: #D7CEC2;
+    border-style: solid;
+    border-color: black;
+    border-radius: 999px;
+    border-spacing: 15px;
+    background-color: #6F7A55;
+    padding: 10px;
+}
+
+nav{
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+/* used for buttons ---------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
